@@ -6,21 +6,11 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
 
 ---
 
-### 🏆 GitHub & 42 Stats  
+### 🏆 GitHub Stats  
 
 <div align="center">  
-  <table>  
-    <tr>  
-      <td>  
-        <a href="https://profile.intra.42.fr/users/mlakhdar">  
-          <img src="https://badge42.vercel.app/api/v2/cl1234567/stats?cursusId=21&coalitionId=45" alt="42 stats" />  
-        </a>  
-      </td>  
-      <td>  
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=medlkhdr&layout=compact&theme=dark" alt="Most Used Languages" />  
-      </td>  
-    </tr>  
-  </table>  
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=medlkhdr&layout=compact&theme=dark" alt="Most Used Languages" />  
+  <br />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=medlkhdr&theme=dark&hide_border=true" alt="GitHub Streak" />  
 </div>  
 
@@ -38,12 +28,9 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="40" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" height="40" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" height="40" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlechrome/googlechrome-original.svg" height="40" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" />  
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" />  
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg" height="40" />  
 </p>  
 
 ---
@@ -54,7 +41,6 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
   <a href="mailto:m0h4m3dl4khd4r@gmail.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="40" /></a>  
   <a href="https://twitter.com/your-twitter"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="40" /></a>  
   <a href="https://www.instagram.com/medlkhdr/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" height="40" /></a>  
-  <a href="https://profile.intra.42.fr/users/medlkhdr"><img src="https://img.shields.io/badge/42-Intra-000000?style=flat-square&logo=42&logoColor=white" height="40" /></a>  
 </p>  
 
 ---
@@ -67,7 +53,7 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
 
 ---
 
-### 🔵 Follow me...  
+### 🔵 Follow Me...  
 
 ```diff  
-+ Follow me...  
++ Stay connected and follow my journey in cybersecurity and open-source development!  
