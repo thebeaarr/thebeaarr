@@ -12,7 +12,7 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
   <table>  
     <tr>  
       <td>  
-        <a href="https://profile.intra.42.fr/users/medlkhdr">  
+        <a href="https://profile.intra.42.fr/users/mlakhdar">  
           <img src="https://badge42.vercel.app/api/v2/cl1234567/stats?cursusId=21&coalitionId=45" alt="42 stats" />  
         </a>  
       </td>  
