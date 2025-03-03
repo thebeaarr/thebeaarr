@@ -40,7 +40,7 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
 <p align="center">  
   <a href="mailto:m0h4m3dl4khd4r@gmail.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="40" /></a>  
   <a href="https://x.com/m3dlkhdr"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="40" /></a>  
-  <a href="https://www.instagram.com/m0h4mm3d.l4khd4r"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" height="40" /></a>  
+  <a href="https://www.instagram.com/m0h4mm3d.l4khd4r"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" height="40" /></a>  
   <a href="https://codeforces.com/profile/Medlkhdddr"><img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Codeforces_logo.png" height="40" /></a>  
 </p>  
 
@@ -54,7 +54,8 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
 
 ---
 
-### 🔵 Follow Me...  
+### 🔥 Cursed Energy & Cybersecurity  
 
 ```diff  
-+ Stay connected and follow my journey in cybersecurity and open-source development!  
+- "Throughout heaven and earth, I alone am the honored one."  
++ Follow me on my journey through cybersecurity and open-source development, channeling the ambition of Geto Suguru!
