@@ -39,8 +39,8 @@ I am a **second-year Computer Science student** at **FSSM** specializing in **Ap
 
 <p align="center">  
   <a href="mailto:m0h4m3dl4khd4r@gmail.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" height="40" /></a>  
-  <a href="https://twitter.com/your-twitter"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="40" /></a>  
-  <a href="https://www.instagram.com/medlkhdr/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" height="40" /></a>  
+  <a href="https://x.com/m3dlkhdr"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg" height="40" /></a>  
+  <a href="https://www.instagram.com/m0h4mm3d.l4khd4r"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/instagram/instagram-original.svg" height="40" /></a>  
 </p>  
 
 ---
