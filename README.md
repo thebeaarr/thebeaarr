@@ -78,15 +78,4 @@
 ### 📜 **Quote I Live By**  
 > **"We don't even know what it is yet. We don't know what it can be. We don't know what it will be. We know that it is cool."**  
 > – **Mark Zuckerberg**, *The Social Network*
----
 
-<p align="center">  
-  <img src="https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" />  
-  <img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue.svg" />  
-</p>  
-
-<p align="center">  
-  <a href="https://github.com/medlkhdr/medlkhdr/blob/main/LICENSE">  
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License" />  
-  </a>  
-</p>  
