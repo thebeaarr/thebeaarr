@@ -75,29 +75,9 @@
 </p>  
 
 ---
-
-### 🚀 **Featured Projects**  
-
-#### **[Project Name](https://github.com/medlkhdr/project-name)**  
-- **Description:** A brief description of the project.  
-- **Tech Stack:** C, Python, Docker, Kubernetes  
-- **Key Features:** Feature 1, Feature 2, Feature 3  
-
-#### **[Project Name](https://github.com/medlkhdr/project-name)**  
-- **Description:** A brief description of the project.  
-- **Tech Stack:** Bash, Linux, Wireshark  
-- **Key Features:** Feature 1, Feature 2, Feature 3  
-
----
-
-### 💡 **Fun Fact**  
-> "I once automated my entire morning routine with a Bash script. Now, my coffee brews itself while my computer logs me into work!" ☕🤖  
-
----
-
 ### 📜 **Quote I Live By**  
-> "The only way to do great work is to love what you do." – **Steve Jobs**  
-
+> **"We don't even know what it is yet. We don't know what it can be. We don't know what it will be. We know that it is cool."**  
+> – **Mark Zuckerberg**, *The Social Network*
 ---
 
 <p align="center">  
