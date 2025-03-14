@@ -73,7 +73,7 @@
   <img src="https://img.shields.io/badge/Programming-C-informational?style=flat-square&logo=c&logoColor=white&color=2bbc8a" />  
   <img src="https://img.shields.io/badge/OS-Linux-informational?style=flat-square&logo=linux&logoColor=white&color=2bbc8a" />  
   <img src="https://img.shields.io/badge/Tools-Docker-informational?style=flat-square&logo=docker&logoColor=white&color=2bbc8a" />  
-  <img src="https://img.shields.io/badge/Skills-Cybersecurity-informational?style=flat-square&logo=security&logoColor=white&color=2bbc8a" />  
+  <img src="https://img.shields.io/badge/Skills-Problem solving-informational?style=flat-square&logo=security&logoColor=white&color=2bbc8a" />  
 </p>  
 
 ---
