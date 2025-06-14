@@ -1,4 +1,4 @@
-## Mohamed Lakhdar
+## WHO AMI
 ### Computer Science Student | Cybersecurity & Networking Enthusiast
 
 Hi! I'm a second-year CS student at FSSM and also studying at 1337.  
