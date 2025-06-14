@@ -1,58 +1,67 @@
-# Mohamed Lakhdar
+<h1 align="left">Mohamed Lakhdar</h1>
 
-![Profile Picture](https://avatars.githubusercontent.com/u/yourusername?s=100) <!-- Replace with your real avatar link -->
+<p>
+  <strong>Computer Science Student</strong> at <i>FSSM</i> & <i>1337</i><br>
+  Passionate about low-level programming, cybersecurity, and system design.
+</p>
 
-## 👨‍💻 About Me
+<hr/>
 
-I'm a second-year Computer Science student at **FSSM**, also learning at **1337**.  
-I’m especially interested in:
+<h2>About Me</h2>
 
-- 🔐 Cybersecurity & Networking  
-- 💻 Low-Level Programming (C, Assembly, etc.)  
-- 🖥️ System Administration  
-- 🧠 Competitive Programming
+<p>
+  I’m a curious learner who enjoys exploring how systems work under the hood.<br>
+  My work spans across:
+  <ul>
+    <li>Low-Level Programming (C, ASM)</li>
+    <li>Cybersecurity & Networking</li>
+    <li>System Administration</li>
+    <li>Competitive Programming</li>
+  </ul>
+</p>
 
----
+<hr/>
 
-## 🛠️ Tech Stack
+<h2>Projects</h2>
 
-**Languages**  
-![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=flat&logo=gnu-bash&logoColor=white)
+<table>
+  <tr>
+    <td><a href="https://github.com/medlkhdr/simple-shell"><img src="https://raw.githubusercontent.com/medlkhdr/simple-shell/main/screenshot.png" width="300"/></a></td>
+    <td><a href="https://github.com/medlkhdr/42-libc"><img src="https://raw.githubusercontent.com/medlkhdr/42-libc/main/demo.png" width="300"/></a></td>
+  </tr>
+  <tr>
+    <td><b>Simple Shell</b><br>A lightweight Unix shell written in C</td>
+    <td><b>Libc Clone</b><br>Recreating standard C library functions</td>
+  </tr>
+</table>
 
-**Tools & Platforms**  
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Vim](https://img.shields.io/badge/Vim-019733?style=flat&logo=vim&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
+<hr/>
 
----
+<h2>Tech Stack</h2>
 
-## 📂 Projects
+<pre>
+Languages:        C, C++, Python, Bash
+OS & Tools:       Linux, Docker, Git, Vim, GDB
+Environments:     CLI, Tmux, SSH, GCC/Clang
+</pre>
 
-You can find my personal projects and code experiments on [my GitHub](https://github.com/medlkhdr).  
-Some highlights:
+<hr/>
 
-- 🛠️ System tools written in C
-- 📡 Networking scripts and automation
-- 📜 Bash CLI tools
+<h2>Contact</h2>
 
----
+<p>
+📧 <a href="mailto:m0h4m3dl4khd4r@gmail.com">m0h4m3dl4khd4r@gmail.com</a><br>
+🔗 <a href="https://linkedin.com/in/b0sm4">LinkedIn</a> |
+<a href="https://x.com/m3dlkhdr">Twitter</a> |
+<a href="https://codeforces.com/profile/Medlkhdddr">Codeforces</a>
+</p>
 
-## 📫 Contact
+<hr/>
 
-- **Email:** m0h4m3dl4khd4r@gmail.com  
-- **LinkedIn:** [linkedin.com/in/b0sm4](https://www.linkedin.com/in/b0sm4)  
-- **Twitter:** [@m3dlkhdr](https://x.com/m3dlkhdr)  
-- **Codeforces:** [Medlkhdddr](https://codeforces.com/profile/Medlkhdddr)
+<h2>Quote</h2>
 
----
-
-## 🧠 Quote
-
-> *"We don't even know what it is yet. We don't know what it can be. We don't know what it will be. We know that it is cool."*  
-> — Mark Zuckerberg, *The Social Network*
-
+<blockquote>
+  "We don't even know what it is yet. We don't know what it can be. We don't know what it will be.  
+  We know that it is cool." – Mark Zuckerberg, <i>The Social Network</i>
+</blockquote>
 
