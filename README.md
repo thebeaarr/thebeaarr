@@ -76,9 +76,6 @@ I'm just starting out in cybersecurity. Trying to learn the fundamentals, unders
 
 ---
 
-<div align="center">
-
-<img src="https://komarev.com/ghpvc/?username=yourusername&color=00FF41&style=for-the-badge" alt="Profile Views" />
 
 *Learning one step at a time*
 
