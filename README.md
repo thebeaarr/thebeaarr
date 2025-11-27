@@ -31,7 +31,7 @@ exploring • learning • building
 
 ### stats
 
-![](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&icon_color=ffffff&text_color=ffffff&hide=stars,issues)
+![](https://github-readme-stats.vercel.app/api?username=thebeaarr&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=ffffff&icon_color=ffffff&text_color=ffffff&hide=stars,issues)
 
 ---
 
@@ -45,6 +45,6 @@ exploring • learning • building
 
 <div align="center">
 
-![](https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=grey&style=flat-square)
+![](https://komarev.com/ghpvc/?username=thebeaarr&color=grey&style=flat-square)
 
 </div>
