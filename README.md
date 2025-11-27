@@ -1,12 +1,15 @@
 <p align="center">
-  <img src="https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.gif" width="600"/>
+  <!-- MR. ROBOT style glitching terminal -->
+  <img src="https://i.imgur.com/8O3fX9Z.gif" width="600"/>
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/3o7aD2saalBwwftBIY/giphy.gif" width="600"/>
+  <!-- Matrix-like hacker effect -->
+  <img src="https://i.imgur.com/YtXxD2X.gif" width="600"/>
 </p>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/l0HlQ7LRal92gdfbi/giphy.gif" width="600"/>
+  <!-- Red glitch scanning bars -->
+  <img src="https://i.imgur.com/Z8q1FzY.gif" width="600"/>
 </p>
 
