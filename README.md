@@ -1,3 +1,3 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=venom&height=300&color=0a001f&text=&fontColor=000000&animation=twinkling" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=0A001F&background=000000&width=650&lines=; ; ; ;" />
 </p>
