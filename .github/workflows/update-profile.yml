@@ -1,0 +1,53 @@
+name: Update profile README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-readme-update
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compute cache key
+        id: cache-key
+        run: echo "date_key=$(date -u +'%Y-%m-%d-%H')" >> "$GITHUB_OUTPUT"
+
+      - name: Restore stats cache
+        uses: actions/cache@v4
+        with:
+          path: .cache
+          key: profile-stats-${{ runner.os }}-${{ steps.cache-key.outputs.date_key }}
+          restore-keys: |
+            profile-stats-${{ runner.os }}-
+
+      - name: Generate README
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python scripts/update_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md .cache/github_profile_stats.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: update profile stats"
+          git push
