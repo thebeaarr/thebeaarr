@@ -298,10 +298,20 @@ def main() -> int:
         print("README.md updated successfully.")
         return 0
 
-    except (HTTPError, URLError, RuntimeError, KeyError, ValueError) as exc:
-        print(f"Error: {exc}", file=sys.stderr)
+    except HTTPError as exc:
+        print(f"HTTP Error: {exc.code}", file=sys.stderr)
+
+        try:
+            print(exc.read().decode(), file=sys.stderr)
+        except Exception:
+            pass
+
         return 1
 
+    except Exception:
+        import traceback
+        traceback.print_exc()
+        return 1
 
 if __name__ == "__main__":
     raise SystemExit(main())
