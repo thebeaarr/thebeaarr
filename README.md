@@ -21,14 +21,14 @@ Role      : 1337 (42 Network) trainee
 Languages : C, C++ (C++98), Java, Python
 Focus     : Systems | Networking | Security | DevOps
 
-Repos     : 18
+Repos     : 14
 Stars     : 1
-Contribs  : 556
-Streak    : 0 current / 16 longest
-Top Langs : C 46.2% | C++ 29.5% | Python 9.9% | Dockerfile 3.7%  (9 total)
+Contribs  : 533
+Streak    : 1 current / 16 longest
+Top Langs : C 50.3% | C++ 22.7% | Python 9.6% | Dockerfile 4.6%  (9 total)
 
 Status    : still learning, will grow
-Updated   : 2026-04-20 02:23 UTC
+Updated   : 2026-06-25 14:44 UTC
 </pre>
 
 </div>
