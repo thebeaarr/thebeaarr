@@ -34,10 +34,8 @@ def utc_now() -> datetime:
 def iso_now() -> str:
     return utc_now().strftime("%Y-%m-%d %H:%M UTC")
 
-
-def get_env_token() -> str | None:
-    # Prefer explicit secret. Fall back to GITHUB_TOKEN if present.
-    return os.getenv("PROFILE_STATS_TOKEN") or os.getenv("GITHUB_TOKEN")
+def get_env_token() -> str | None : 
+    return os.getenv("GITHUB_TOKEN")
 
 
 def build_headers() -> Dict[str, str]:
