@@ -243,22 +243,67 @@ def contributions_and_streaks() -> Dict[str, Any]:
     }
 
 
+def fetch_pinned_repos() -> List[Dict[str, Any]]:
+    query = """
+    query($login: String!) {
+      user(login: $login) {
+        pinnedItems(first: 6, types: [REPOSITORY]) {
+          nodes {
+            ... on Repository {
+              name
+              description
+              url
+              primaryLanguage { name }
+            }
+          }
+        }
+      }
+    }
+    """
+
+    data = graphql_query(query, {"login": USERNAME})
+    nodes = data["user"]["pinnedItems"]["nodes"]
+
+    return [
+        {
+            "name": node["name"],
+            "description": node.get("description") or "—",
+            "url": node["url"],
+            "language": (node.get("primaryLanguage") or {}).get("name", "—"),
+        }
+        for node in nodes
+    ]
+
+
+def render_featured_projects(projects: List[Dict[str, Any]]) -> str:
+    if not projects:
+        return "_Pin repositories on your GitHub profile to feature them here._"
+
+    lines = ["| Project | Description | Language |", "|---|---|---|"]
+    for project in projects:
+        lines.append(
+            f"| [{project['name']}]({project['url']}) | {project['description']} | {project['language']} |"
+        )
+    return "\n".join(lines)
+
+
 def collect_stats() -> Dict[str, Any]:
     repos = paginate_repos()
-
-    repo_count = len(repos)
-    stars = sum(int(repo.get("stargazers_count", 0)) for repo in repos)
 
     top_langs_rendered, language_count = aggregate_languages(repos)
     contrib_stats = contributions_and_streaks()
 
+    try:
+        pinned = fetch_pinned_repos()
+    except Exception:
+        pinned = []
+
     return {
-        "repos": repo_count,
-        "stars": stars,
         "contribs_year": contrib_stats["contribs_year"],
         "current_streak": contrib_stats["current_streak"],
         "longest_streak": contrib_stats["longest_streak"],
         "top_langs": f"{top_langs_rendered}  ({language_count} total)",
+        "featured_projects": render_featured_projects(pinned),
         "updated": iso_now(),
     }
 
@@ -266,12 +311,11 @@ def collect_stats() -> Dict[str, Any]:
 def render_readme(stats: Dict[str, Any]) -> str:
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
     replacements = {
-        "{{REPOS}}": str(stats["repos"]),
-        "{{STARS}}": str(stats["stars"]),
         "{{CONTRIBS_YEAR}}": str(stats["contribs_year"]),
         "{{CURRENT_STREAK}}": str(stats["current_streak"]),
         "{{LONGEST_STREAK}}": str(stats["longest_streak"]),
         "{{TOP_LANGS}}": stats["top_langs"],
+        "{{FEATURED_PROJECTS}}": stats["featured_projects"],
         "{{UPDATED}}": stats["updated"],
     }
 
